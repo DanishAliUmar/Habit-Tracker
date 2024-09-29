@@ -1,4 +1,4 @@
-# Habit Tracker (Project Name)
+# Habit Tracker
 
 A **Habit Tracker** app built with **React**, **Redux**, and **Vite** to help users track daily habits and monitor progress.
 
@@ -11,7 +11,6 @@ A **Habit Tracker** app built with **React**, **Redux**, and **Vite** to help us
 - [Redux Store Structure](#redux-store-structure)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
