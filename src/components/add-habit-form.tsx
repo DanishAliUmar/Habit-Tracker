@@ -6,7 +6,7 @@ const AddHabitForm: React.FC = () => {
     const [frequency, setFrequency] = useState<"daily" | "weekly">("daily");
   return (
     <div>
-        <Box>asdf</Box>
+        <Box></Box>
     </div>
   )
 }
