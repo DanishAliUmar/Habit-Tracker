@@ -12,7 +12,8 @@ const HabitList: React.FC = () => {
         return <Paper key={habit.id} elevation={2} sx={{p:2}}>
           <Grid container alignItems={"center"}>
             <Grid>
-              <div className=""></div>
+              <Typography variant="h6">{habit.name}</Typography>
+              <Typography variant="body2" color="textSecondary">{habit.frequency}</Typography>
             </Grid>
           </Grid>
         </Paper>
