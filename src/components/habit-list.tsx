@@ -7,7 +7,11 @@ const HabitList: React.FC = () => {
   const habits = useSelector((state: RootState) => state.habits.habits);
 
   return (
-    <div className=""></div>
+    <Box sx={{ display: "flex", flexDirection: "column", gap: 2, mt: 4 }}>
+      {habits.map((habit)=>{
+        return <div className=""></div>
+      })}
+    </Box>
   );
 };
 
