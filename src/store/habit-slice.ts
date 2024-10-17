@@ -99,7 +99,6 @@ const habitSlice = createSlice({
         }
       }
     },
-    removeHabit: () => {},
   },
   extraReducers(builder) {
     builder
